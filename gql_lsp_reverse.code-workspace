@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "./app_2"
+    },
+    {
+      "path": "./app_1"
+    }
+  ],
+  "extensions": {
+    "recommendations": ["graphql.vscode-graphql"]
+  }
+}

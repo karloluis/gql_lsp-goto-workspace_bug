@@ -1,0 +1,11 @@
+schema: ./graphql/**/*.gql
+extensions:
+  languageService:
+    cacheSchemaFileForLookup: false
+  codegen:
+    generates: 
+      src/graphql:
+        preset: '@eddeee888/gcg-typescript-resolver-files' #https://www.npmjs.com/package/@eddeee888/gcg-typescript-resolver-files
+    hooks:
+      afterAllFileWrite:
+        - prettier --write
