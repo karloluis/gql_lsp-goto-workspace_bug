@@ -1,3 +1,5 @@
 scalar Dud
 
-type Query
+type Query {
+  ping: Boolean
+}
